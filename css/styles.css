@@ -172,7 +172,7 @@ main {
 
 .main-currency-table .currency-table--tittle {
     text-align: left;
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -247,7 +247,7 @@ main {
 
 .main-currency-table .currency-table--tittle--comisiones {
     text-align: left;
-    margin-left: 20px;
+    padding-left: 20px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -287,4 +287,111 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     font-weight: 300;
+}
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.patata {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: 45%;
+    background-repeat: no-repeat;
+    background-image: url('../assets/icons/logo.svg');
+}
+
+.product-detail--tittle {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--tittle h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail--tittle p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--off-white);
+}
+
+.product-cards--container {
+    width: 100%;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black1);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card .icon-card {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.clock {
+    background-image: url('../assets/icons/clock.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eye {
+    background-image: url('../assets/icons/eye.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.money {
+    background-image: url('../assets/icons/dollar-sign.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.check {
+    background-image: url('../assets/icons/check-circle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-card--tittle {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product-card--body {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #c4bfbf;
 }
