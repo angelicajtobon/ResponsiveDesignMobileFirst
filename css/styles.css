@@ -124,6 +124,7 @@ font-family: 'Inter', sans-serif;*/
         padding-top: 80px;
         padding-bottom: 30px;
         text-align: center;
+        align-items: center;
     }
     
     .main-exchange-container--tittle {
@@ -160,13 +161,23 @@ font-family: 'Inter', sans-serif;*/
         color: #757575;
     }
     
+    .main-tables-container {
+        display: flex;
+        overflow-x: scroll;
+        overscroll-behavior: contain;
+        scroll-snap-type: x proximity;
+        margin: 0 auto;
+    }
+    
     .main-currency-table {
         width: 70%;
         min-width: 235px;
         max-width: 500px;
         height: 360px;
-        margin: 0 auto;
+        margin: 0 10px;
+        scroll-snap-align: center;
         font-family: 'Inter', sans-serif;
+        align-self: center;
     }
     
     .main-currency-table .currency-table--tittle {
@@ -199,6 +210,7 @@ font-family: 'Inter', sans-serif;*/
         line-height: 1.9rem;
         color: var(--grey);
         background-color: var(--just-white);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16)
     }
     
     .currency-table--container .table__top-left {
